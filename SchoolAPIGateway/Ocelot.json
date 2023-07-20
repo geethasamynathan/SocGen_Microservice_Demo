@@ -1,0 +1,55 @@
+//{
+//  "Routes": [
+//    {
+//      "DownstreamPathTemplate": "/api/StudentAttendance",
+//      "DownstreamScheme": "https",
+//      "DownstreamHostAndPorts": [
+//        {
+//          "Host": "localhost",
+//          "Port": 7167
+//        }
+//      ],
+//      "UpstreamPathTemplate": "/apigateway/AttendanceService",
+//      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+//    },
+//    {
+//      "DownstreamPathTemplate": "/api/StudentAdmissions",
+//      "DownstreamScheme": "https",
+//      "DownstreamHostAndPorts": [
+//        {
+//          "Host": "localhost",
+//          "Port": 7220
+//        }
+//      ],
+//      "UpstreamPathTemplate": "/apigateway/AdmissionService",
+//      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+//    }
+//  ]
+//}
+//  "Routes": [
+//    {
+//      "DownstreamPathTemplate": "api/StudentAttendance",
+//      "DownstreamScheme": "https",
+//      "DownstreamHostAndPorts": [
+//        {
+//          "Host": "localhost",
+//          "Port": 7167
+//        }
+//      ],
+//      "UpstreamPathTemplate": "/apigateway/AttendanceService",
+//      "UpstreamHttpMethod": [ "GET", "PUT", "POST", "DELETE" ]
+//    },
+//    {
+//      "DownstreamPathTemplate": "api/StudentAdmissions",
+//      "DownstreamScheme": "https",
+//      "DownstreamHostAndPorts": [
+//        {
+//          "Host": "localhost",
+//          "Port": 7220
+//        }
+//      ],
+//      "UpstreamPathTemplate": "/apigateway/AdmissionService",
+//      "UpstreamHttpMethod": [ "GET", "PUT", "POST", "DELETE" ]
+//    }
+//  ]
+//}
